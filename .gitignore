@@ -1,0 +1,21 @@
+# Credentials & Secrets
+.env
+token.json
+auth_state.json
+
+# Temporary & State Files
+temp_sales_processing/
+.sales_groq_last.txt
+.sales_groq.lock
+.groq_deploy.lock
+.groq_last_call.txt
+.cpu_transcribe.lock
+
+# Python Junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local transcripts
+transcripts/
